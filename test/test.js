@@ -36,7 +36,7 @@ describe('jQuery', function () {
       corssDomain: true //跨域请求 需要标识出来
     }).success(function(data){
       console.log(data)
-      done()
+      done();
     })
   })
 })
